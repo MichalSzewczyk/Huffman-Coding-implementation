@@ -1,4 +1,6 @@
-package com.huffman.coding.utils;
+package com.huffman.coding.model;
+
+import com.huffman.coding.utils.Tuple;
 
 public final class ValueWithFrequency<V> {
     private final Tuple<V, Integer> valueWithFrequency;
